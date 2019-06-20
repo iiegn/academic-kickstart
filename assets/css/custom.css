@@ -1,0 +1,4 @@
+.card-simple:first-of-type {
+  /* default from: themes/academic/assets/sass/academic/_card.scss */
+  margin-top: 20px;
+}
