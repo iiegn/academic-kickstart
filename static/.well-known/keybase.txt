@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/iiegn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://iiegn.eu
+  * I am iiegn (https://keybase.io/iiegn) on keybase.
+  * I have a public key ASA5sDIA5laZ6ZZLzS3Mz5Rwht9NTxIWspHoTLxg18UGkwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012039b03200e65699e9964bcd2dcccf947086df4d4f1216b291e84cbc60d7c506930a",
+      "host": "keybase.io",
+      "kid": "012039b03200e65699e9964bcd2dcccf947086df4d4f1216b291e84cbc60d7c506930a",
+      "uid": "cf5c60c85f9c9754e280ad15bb6ae919",
+      "username": "iiegn"
+    },
+    "merkle_root": {
+      "ctime": 1515714043,
+      "hash": "89bda6f6f85f50a39d3f5dd7666aab27df86b614cc4ab0ba49ca3d45cf9a9194e75291d3e9e1bef4c21e32e0a17abef0762f06917b5667f6d59ec5dde6ba5935",
+      "hash_meta": "c1acf7b4dcc508e7443ee5178d4f448fdd55dc9bc73bb3dd78e9bd121d9bbae4",
+      "seqno": 1917464
+    },
+    "service": {
+      "hostname": "iiegn.eu",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.39"
+  },
+  "ctime": 1515714056,
+  "expire_in": 504576000,
+  "prev": "85edd3abbb3c8cadd233523592904a6c143b510c189380f3df7d2954cddfc347",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgObAyAOZWmemWS80tzM+UcIbfTU8SFrKR6Ey8YNfFBpMKp3BheWxvYWTFAz17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzliMDMyMDBlNjU2OTllOTk2NGJjZDJkY2NjZjk0NzA4NmRmNGQ0ZjEyMTZiMjkxZTg0Y2JjNjBkN2M1MDY5MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzliMDMyMDBlNjU2OTllOTk2NGJjZDJkY2NjZjk0NzA4NmRmNGQ0ZjEyMTZiMjkxZTg0Y2JjNjBkN2M1MDY5MzBhIiwidWlkIjoiY2Y1YzYwYzg1ZjljOTc1NGUyODBhZDE1YmI2YWU5MTkiLCJ1c2VybmFtZSI6ImlpZWduIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE1NzE0MDQzLCJoYXNoIjoiODliZGE2ZjZmODVmNTBhMzlkM2Y1ZGQ3NjY2YWFiMjdkZjg2YjYxNGNjNGFiMGJhNDljYTNkNDVjZjlhOTE5NGU3NTI5MWQzZTllMWJlZjRjMjFlMzJlMGExN2FiZWYwNzYyZjA2OTE3YjU2NjdmNmQ1OWVjNWRkZTZiYTU5MzUiLCJoYXNoX21ldGEiOiJjMWFjZjdiNGRjYzUwOGU3NDQzZWU1MTc4ZDRmNDQ4ZmRkNTVkYzliYzczYmIzZGQ3OGU5YmQxMjFkOWJiYWU0Iiwic2Vxbm8iOjE5MTc0NjR9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaWllZ24uZXUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM5In0sImN0aW1lIjoxNTE1NzE0MDU2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6Ijg1ZWRkM2FiYmIzYzhjYWRkMjMzNTIzNTkyOTA0YTZjMTQzYjUxMGMxODkzODBmM2RmN2QyOTU0Y2RkZmMzNDciLCJzZXFubyI6MTgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAYUEsoxiItnxLxEZom9CEyrdvDbjMh5RqLIr73IK8wddFSXY1+5m8u45y3JVguTVcTVEsRJZxpeliGeNpkKhMAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP2Q7TDzEvaI21w/SRkN4nuue6E4JXhS0bkH+muuvuu+o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iiegn
+
+==================================================================
