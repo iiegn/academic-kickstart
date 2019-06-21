@@ -6,6 +6,14 @@ name: Egon W. Stemle
 authors:
 - admin
 
+# FIXME: automatically generated names from authors (egon-stemle,
+# egon-w.-stemle) do *not* work
+aliases:
+  - /authors/egon-stemle/
+  - /authors/egon-w.-stemle/
+  - /authors/egon/
+  - /authors/iiegn/
+
 # Is this the primary user of the site?
 superuser: true
 
