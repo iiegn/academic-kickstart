@@ -1,13 +1,13 @@
 ---
 title: "Structure-Preserving Pipelines for Digital Libraries"
 date: 2011-06-01
-publishDate: 2019-06-20T13:30:26.119441Z
+publishDate: 2019-06-21T17:39:59.212822Z
 authors: ["Massimo Poesio", "Eduard Barbu", "Egon W. Stemle", "Christian Girardi"]
-publication_types: ["1"]
-all_day: true
+publication_types: ['1']
 abstract: "Most existing HLT pipelines assume the input is pure text or, at most, HTML and either ignore (logical) document structure or remove it. We argue that identifying the structure of documents is essential in digital library and other types of applications, and show that it is relatively straightforward to extend existing pipelines to achieve ones in which the structure of a document is preserved."
 featured: false
 publication: "*Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities (LaTeCH 2011)*"
+publication_short: ""
 url_pdf: "http://www.aclweb.org/anthology/W11-1508"
 ---
 
