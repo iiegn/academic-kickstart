@@ -21,6 +21,9 @@ googleAnalytics = ""
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
+# Enable robots.txt
+enableRobotsTXT = true
+
 ############################
 ## Advanced options below ##
 ############################
