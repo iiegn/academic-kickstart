@@ -63,8 +63,14 @@
             {{ $.Scratch.Set "year_label_current" (.Date.Format "2006") }}
             {{ if ne ($.Scratch.Get "year_label_current") ($.Scratch.Get "year_label_last") }}
             <h3>{{ .Date.Format "2006" }}</h3>
+                {{ if .Params.publication_status }}
+                {{ .Params.publication_status }}
+                {{ end }}
             {{ else }}
             <h3>{{ .Date.Format "2006" }}</h3>
+                {{ if .Params.publication_status }}
+                {{ .Params.publication_status }}
+                {{ end }}
             {{ end }}
             {{ $.Scratch.Set "year_label_last" (.Date.Format "2006") }}
           </div>
