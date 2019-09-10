@@ -1,7 +1,7 @@
 ---
 title: "Automatische Annotation von Schülertexten - Herausforderungen und Lösungsvorschläge am Beispiel des Projekts KoKo"
 date: 2013-11-22
-publishDate: 2019-06-21T17:39:58.376403Z
+publishDate: 2019-09-10T13:35:38.245145Z
 event: "Workshop from the \"Arbeitsgruppe: Korpusbasierte Linguistik\" at the 40. Österreichische Linguistiktagung"
 location: "Universität Salzburg, Salzburg, AT"
 authors: ["Egon W. Stemle"]
@@ -10,5 +10,6 @@ abstract: "Der Vortrag stellt den iterativen Workflow zur Erstellung eines lemma
 featured: false
 publication: ""
 publication_short: ""
+url_pdf: "https://api.zotero.org/users/332053/publications/items/7K5X8CXC/file/view"
 ---
 
