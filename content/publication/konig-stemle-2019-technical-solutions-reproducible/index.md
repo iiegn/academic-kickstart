@@ -1,7 +1,9 @@
 ---
 title: "Technical Solutions for Reproducible Research"
 date: 2019-01-01
-publishDate: 2019-09-10T07:42:46.717151Z
+publishDate: 2019-09-10T07:48:10.999956Z
+weight: 1
+publication_status: "Accepted at CLARIN"
 authors: ["Alexander König", "Egon W. Stemle"]
 publication_types: ['3']
 all_day: true
