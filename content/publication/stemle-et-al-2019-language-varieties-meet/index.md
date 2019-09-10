@@ -1,7 +1,9 @@
 ---
 title: "Language varieties meet One-Click Dictionary"
 date: 2019-01-01
-publishDate: 2019-09-10T07:42:46.723898Z
+publishDate: 2019-09-10T07:48:11.006919Z
+weight: 1
+publication_status: "Accepted at eLex"
 authors: ["Egon W. Stemle", "Andrea Abel", "Verena Lyding"]
 publication_types: ['3']
 all_day: true
