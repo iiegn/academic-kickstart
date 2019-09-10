@@ -8,7 +8,7 @@ authors: []
 tags: []
 categories: []
 date: 2019-06-21T20:34:05+02:00
-lastmod: 2019-06-21T20:34:05+02:00
+lastmod: 2019-06-24T10:09:05+02:00
 featured: false
 draft: false
 
@@ -49,6 +49,6 @@ I found these links very helpful...:
 
 - [Customising exports from Zotero+BetterBibTeX](https://retorque.re/zotero-better-bibtex/customized-exports/)
 - [Citeable Item Types not Included in Zotero](https://www.zotero.org/support/kb/item_types_and_fields#citeable_item_types_not_included_in_zotero)
-- http://docs.citationstyles.org/en/1.0.1/specification.html#appendix-iii-types
-- https://nwalsh.com/tex/texhelp/bibtx-7.html
-- https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management
+- [CSL Types](http://docs.citationstyles.org/en/1.0.1/specification.html#appendix-iii-types)
+- [BibTeX Entry Types](https://nwalsh.com/tex/texhelp/bibtx-7.html)
+- [LaTeX/biblatex Entry Types / field types](https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#biblatex)
