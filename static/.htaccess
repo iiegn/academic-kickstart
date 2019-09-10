@@ -1,7 +1,7 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteRule ^work/$ http://www.eurac.edu/en/research/autonomies/commul/staff/Pages/staffdetails.aspx?persId=27143 [L,R=302]
+RewriteRule ^work/?$ http://www.eurac.edu/en/research/autonomies/commul/staff/Pages/staffdetails.aspx?persId=27143 [L,R=302]
 
 <IfModule mod_deflate.c>
    # Force compression for mangled headers.
