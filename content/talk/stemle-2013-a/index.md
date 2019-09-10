@@ -1,7 +1,7 @@
 ---
 title: "The future of BootCaT: A Creative Commons License filter"
 date: 2013-06-24
-publishDate: 2019-06-21T17:39:58.380935Z
+publishDate: 2019-09-10T13:35:38.256820Z
 event: "BootCaTters of the world unite! (BOTWU), A workshop (and a survey) on the BootCaT toolkit"
 location: "Department of Interpreting and Translation, University of Bologna, Forlì, IT"
 authors: ["Egon W. Stemle"]
@@ -10,5 +10,6 @@ abstract: "\"Copyright issues remain a gray area in compiling and distributing W
 featured: false
 publication: ""
 publication_short: ""
+url_pdf: "https://api.zotero.org/users/332053/publications/items/6KKMK8N4/file/view"
 ---
 
