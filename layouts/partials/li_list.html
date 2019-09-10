@@ -38,12 +38,12 @@
     {{ if $item.Params.event }}
     <span class="middot-divider"></span>
     {{ with $item.Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-    <span itemprop="event">{{ $item.Params.event }}</span>
+    <span itemprop="description">{{ $item.Params.event }}</span>
     {{ if $item.Params.event_url }}</a>{{ end }}
     {{ end }}
     {{ with $item.Params.location }}
     <span class="middot-divider"></span>
-    <span itemprop="location">{{ . }}</span>
+    <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>
     {{ end }}
   </div>
   {{ end }}
