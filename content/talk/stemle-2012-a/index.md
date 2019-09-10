@@ -1,7 +1,7 @@
 ---
 title: "Web Corpus Creation and Cleaning"
 date: 2012-07-13
-publishDate: 2019-06-21T17:39:58.380245Z
+publishDate: 2019-09-10T13:35:38.254945Z
 event: "Student Research Workshop:Computer Applications in Linguistics (CSRW2012)"
 location: "English Corpus Linguistics Group at the Institute of Linguistics and Literary Studies, Technische Universität Darmstadt, Darmstadt, DE"
 authors: ["Egon W. Stemle"]
@@ -10,5 +10,6 @@ abstract: "It has proven very difficult to obtain large quantities of ‘traditi
 featured: false
 publication: ""
 publication_short: ""
+url_pdf: "https://api.zotero.org/users/332053/publications/items/74VFGE9A/file/view"
 ---
 
