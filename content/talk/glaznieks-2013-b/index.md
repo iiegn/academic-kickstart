@@ -1,7 +1,7 @@
 ---
 title: "Herausforderungen bei der automatischen Verarbeitung von dialektalen IBK-Daten"
 date: 2013-09-23
-publishDate: 2019-06-21T17:39:58.376865Z
+publishDate: 2019-09-10T13:35:38.246072Z
 event: "Publication Title: Workshop on \"Verabeitung und Annotation von Sprachdaten aus Genres internetbasierter Kommunikation\" at the International Conference of the German Society for Computational Linguistics and Language Technology (GSCL 2013)"
 location: "TU Darmstadt, Darmstadt, DE"
 authors: ["Egon W. Stemle"]
@@ -10,5 +10,6 @@ abstract: "Die automatische Verarbeitung von IBK-Daten stellt herkömmliche Verf
 featured: false
 publication: ""
 publication_short: ""
+url_pdf: "https://api.zotero.org/users/332053/publications/items/7HSFPXJI/file/view"
 ---
 
