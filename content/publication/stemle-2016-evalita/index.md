@@ -1,7 +1,7 @@
 ---
 title: "bot.zen @ EVALITA 2016 - A minimally-deep learning PoS-tagger (trained for Italian Tweets)"
 date: 2016-12-01
-publishDate: 2019-06-21T17:39:59.215903Z
+publishDate: 2019-07-04T14:22:00.273551Z
 event: "EVALITA"
 authors: ["Egon W. Stemle"]
 publication_types: ['1']
@@ -10,5 +10,6 @@ featured: false
 publication: "*Proceedings of Third Italian Conference on Computational Linguistics (CLiC-it 2016) & Fifth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2016)*"
 publication_short: ""
 url_pdf: "http://books.openedition.org/aaccademia/pdf/1968"
+doi: "10.4000/books.aaccademia.1968"
 ---
 
