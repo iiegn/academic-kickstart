@@ -2,3 +2,13 @@
   /* default from: themes/academic/assets/sass/academic/_card.scss */
   margin-top: 20px;
 }
+
+div.article-style[itemprop=articleBody] {
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+p {
+  hyphens: auto;
+  word-wrap: break-word;
+}
