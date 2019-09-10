@@ -1,7 +1,7 @@
 ---
 title: "Web Corpus Creation, Cleaning and Evaluation"
 date: 2015-08-10
-publishDate: 2019-06-21T17:39:58.381302Z
+publishDate: 2019-09-10T13:35:38.257824Z
 event: "Web as Corpus Meeting@eLex 2015"
 location: "Herstmonceux Castle, UK"
 authors: ["Egon W. Stemle"]
@@ -10,5 +10,6 @@ abstract: "The web has become increasingly popular as a source of linguistic dat
 featured: false
 publication: ""
 publication_short: ""
+url_pdf: "https://api.zotero.org/users/332053/publications/items/FW56NJIA/file/view"
 ---
 
