@@ -1,9 +1,10 @@
 ---
 title: "Bilder kippen! Aspektsehen in künstlerischer Praxis und Lehre"
 date: 2018-05-30
-publishDate: 2019-06-21T17:39:58.377696Z
+publishDate: 2019-10-08T16:01:39.750739Z
 event: "Forschungs-Mittwoch"
 event_url: "https://www.hkb.bfh.ch/de/forschung/veranstaltungen/forschungs-mittwoch/"
+eventtype: "Panel talk"
 location: "Bern University of the Arts, Bern, CH"
 authors: ["Tine Melzer", "Frans Oosterhof", "Dorothea Franck", "Egon Stemle"]
 all_day: true

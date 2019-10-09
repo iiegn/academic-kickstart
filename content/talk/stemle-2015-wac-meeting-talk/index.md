@@ -1,8 +1,9 @@
 ---
 title: "Web Corpus Creation, Cleaning and Evaluation"
 date: 2015-08-10
-publishDate: 2019-09-10T13:54:03.021122Z
+publishDate: 2019-10-08T16:01:39.757952Z
 event: "Web as Corpus Meeting@eLex 2015"
+eventtype: "Lecture"
 location: "Herstmonceux Castle, UK"
 authors: ["Egon W. Stemle"]
 all_day: true

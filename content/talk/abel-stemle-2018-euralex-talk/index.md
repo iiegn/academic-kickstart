@@ -2,9 +2,10 @@
 title: "On the Detection of Neologism Candidates as Basis for Language Observation and Lexicographic Endeavours: the STyrLogisms Project"
 shorttitle: "Detection of Neologism Candidates: the STyrLogisms Project"
 date: 2018-07-19
-publishDate: 2019-06-21T17:39:58.375803Z
+publishDate: 2019-10-08T16:01:39.724882Z
 event: "XVIII EURALEX International Congress"
 event_url: "https://euralex2018.cjvt.si"
+eventtype: "Talk"
 location: "Ljubljana, SI"
 authors: ["Andrea Abel", "Egon W. Stemle"]
 all_day: true

@@ -1,8 +1,9 @@
 ---
 title: "Automated L1 identification in English learner essays and its implications for language transfer"
 date: 2014-04-01
-publishDate: 2019-09-10T13:54:03.017372Z
+publishDate: 2019-10-08T16:01:39.751561Z
 event: "Work in Progrss Series"
+eventtype: "Talk"
 location: "Kompetenzzentrum Sprachen, Freie Universität Bozen, Bolzano, IT"
 authors: ["Egon W. Stemle", "Alexander Onysko"]
 all_day: true

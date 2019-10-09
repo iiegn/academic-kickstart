@@ -1,8 +1,9 @@
 ---
 title: "(Technical Aspects of) Harvesting Data from Social Network Sites"
 date: 2013-02-14
-publishDate: 2019-09-10T13:54:03.019013Z
+publishDate: 2019-10-08T16:01:39.754665Z
 event: "International workshop \"Building Corpora of Computer-Mediated Communication: Issues, Challenges, and Perspectives\""
+eventtype: "Talk"
 location: "Dortmund, DE"
 authors: ["Egon W. Stemle"]
 all_day: true

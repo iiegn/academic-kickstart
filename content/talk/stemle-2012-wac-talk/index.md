@@ -1,8 +1,9 @@
 ---
 title: "Web Corpus Creation and Cleaning"
 date: 2012-07-13
-publishDate: 2019-09-10T13:54:03.022762Z
+publishDate: 2019-10-08T16:01:39.761085Z
 event: "Student Research Workshop:Computer Applications in Linguistics (CSRW2012)"
+eventtype: "Plenary talk"
 location: "English Corpus Linguistics Group at the Institute of Linguistics and Literary Studies, Technische Universität Darmstadt, Darmstadt, DE"
 authors: ["Egon W. Stemle"]
 all_day: true

@@ -1,9 +1,10 @@
 ---
 title: "The DiDi Project: Collecting, Annotating, and Analysing South Tyrolean Data of Computer-mediated Communication"
 date: 2015-10-23
-publishDate: 2019-06-21T17:39:58.378782Z
+publishDate: 2019-10-08T16:01:39.757303Z
 event: "First international research days on Social Media and CMC Corpora for the eHumanities (ird-cmc-rennes)"
 event_url: "http://ird-cmc-rennes.sciencesconf.org"
+eventtype: "Invited talk"
 location: "Rennes 2 University, Rennes, FR"
 authors: ["Egon W. Stemle"]
 all_day: true

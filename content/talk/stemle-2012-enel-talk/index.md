@@ -1,8 +1,9 @@
 ---
 title: "On visual Approaches towards Corpus Exploration"
 date: 2012-05-04
-publishDate: 2019-09-10T13:54:03.018182Z
+publishDate: 2019-10-08T16:01:39.753150Z
 event: "3rd workshop of the academic network on \"Internet Lexicography\""
+eventtype: "Short talk"
 location: "EURAC research, Bolzano, IT"
 authors: ["Egon W. Stemle"]
 all_day: true

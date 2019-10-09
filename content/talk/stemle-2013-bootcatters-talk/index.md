@@ -1,8 +1,9 @@
 ---
 title: "The future of BootCaT: A Creative Commons License filter"
 date: 2013-06-24
-publishDate: 2019-09-10T13:54:03.018589Z
+publishDate: 2019-10-08T16:01:39.753890Z
 event: "BootCaTters of the world unite! (BOTWU), A workshop (and a survey) on the BootCaT toolkit"
+eventtype: "Talk"
 location: "Department of Interpreting and Translation, University of Bologna, Forlì, IT"
 authors: ["Egon W. Stemle"]
 all_day: true

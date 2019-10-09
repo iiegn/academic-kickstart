@@ -1,8 +1,9 @@
 ---
 title: "Herausforderungen bei der automatischen Verarbeitung von dialektalen IBK-Daten"
 date: 2013-09-23
-publishDate: 2019-09-10T13:54:03.019393Z
+publishDate: 2019-10-08T16:01:39.755312Z
 event: "Publication Title: Workshop on \"Verabeitung und Annotation von Sprachdaten aus Genres internetbasierter Kommunikation\" at the International Conference of the German Society for Computational Linguistics and Language Technology (GSCL 2013)"
+eventtype: "Talk"
 location: "TU Darmstadt, Darmstadt, DE"
 authors: ["Egon W. Stemle"]
 all_day: true

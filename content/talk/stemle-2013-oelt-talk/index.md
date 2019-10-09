@@ -1,8 +1,9 @@
 ---
 title: "Automatische Annotation von Schülertexten - Herausforderungen und Lösungsvorschläge am Beispiel des Projekts KoKo"
 date: 2013-11-22
-publishDate: 2019-09-10T13:54:03.019811Z
+publishDate: 2019-10-08T16:01:39.756000Z
 event: "Workshop from the \"Arbeitsgruppe: Korpusbasierte Linguistik\" at the 40. Österreichische Linguistiktagung"
+eventtype: "Talk"
 location: "Universität Salzburg, Salzburg, AT"
 authors: ["Egon W. Stemle"]
 all_day: true

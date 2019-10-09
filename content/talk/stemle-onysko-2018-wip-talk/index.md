@@ -1,8 +1,9 @@
 ---
 title: "Using Language Learner Data for Metaphor Detection"
 date: 2018-06-05
-publishDate: 2019-06-21T17:39:58.378425Z
+publishDate: 2019-10-08T16:01:39.752353Z
 event: "Work in Progress Series"
+eventtype: "Talk"
 location: "Kompetenzzentrum Sprachen, Freie Universität Bozen, Bolzano, IT"
 authors: ["Egon W. Stemle", "Alexander Onysko"]
 all_day: true

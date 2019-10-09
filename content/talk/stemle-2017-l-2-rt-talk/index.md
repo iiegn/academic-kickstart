@@ -1,9 +1,10 @@
 ---
 title: "Learner Corpus Infrastructure (LCI) @ Eurac Research"
 date: 2017-12-01
-publishDate: 2019-06-21T17:39:58.379528Z
+publishDate: 2019-10-08T16:01:39.759200Z
 event: "SWE-CLARIN Workshop on Interoperability of Second Language Resources and Tools"
 event_url: "https://sweclarin.se/swe/workshop-interoperability-l2-resources-and-tools"
+eventtype: "Talk"
 location: "University of Gothenburg, Gothenburg, SE"
 authors: ["Egon W. Stemle"]
 all_day: true

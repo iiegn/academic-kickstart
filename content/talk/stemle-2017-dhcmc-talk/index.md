@@ -1,9 +1,10 @@
 ---
 title: "DiDi Corpus"
 date: 2017-06-19
-publishDate: 2019-06-21T17:39:58.379158Z
+publishDate: 2019-10-08T16:01:39.758605Z
 event: "Integrating a new type of language resource into the Digital Humanities landscape: French-German colloquium on standards for corpora of computer-mediated communication"
 event_url: "https://sites.google.com/view/dhcmc2017/"
+eventtype: "Talk"
 location: "University of Duisburg-Essen, Duisburg, DE"
 authors: ["Egon W. Stemle"]
 all_day: true
