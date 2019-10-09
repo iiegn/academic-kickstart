@@ -45,6 +45,10 @@
         {{ end }}
       {{ end }}
     </span>
+    {{ with $item.Params.eventtype }}
+    <span class="middot-divider"></span>
+    <span>{{ . }}</span>
+    {{ end }}
     {{ if $item.Params.event }}
     <span class="middot-divider"></span>
     {{ with $item.Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
@@ -75,7 +79,7 @@
 
   {{ with $summary }}
   <div class="article-style" itemprop="articleBody">
-    {{ . }}
+    <p>{{.}}</p>
   </div>
   {{ end }}
 

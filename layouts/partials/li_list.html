@@ -1,11 +1,17 @@
 {{ $item := . }}
 
 {{ $microdata_type := "CreativeWork" }}
+{{/* Dynamic view adjusts to content type. */}}
+{{ $icon_pack := "far" }}
 {{ $icon := "fa-file-alt" }}
 {{ $show_authors := false }}
 {{ $show_buttons := false }}
-
-{{/* Dynamic view adjusts to content type. */}}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
 {{ if eq $item.Type "post" }}
   {{ $microdata_type = "BlogPosting" }}
   {{ $icon = "fa-newspaper" }}
@@ -16,11 +22,16 @@
   {{ $microdata_type = "ScholarlyArticle" }}
   {{ $show_authors = true }}
   {{ $show_buttons = true }}
+{{ else if eq $item.Type "project" }}
+  {{ $icon_pack = "fas" }}
+  {{ $icon = "fa-project-diagram" }}
+  {{ $show_authors = true }}
+  {{ $show_buttons = true }}
 {{ end }}
 
 <div class="view-list-item" itemscope itemtype="http://schema.org/{{$microdata_type}}">
-  <i class="far {{$icon}} pub-icon" aria-hidden="true"></i>
-  <a href="{{ $item.RelPermalink }}" itemprop="url"><span itemprop="name">{{ if $item.Params.shorttitle }}{{ $item.Params.shorttitle }}{{ else }}{{ $item.Title }}{{ end }}</span>
+  <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
+  <a href="{{$link}}" itemprop="url"><span itemprop="name">{{ if $item.Params.shorttitle }}{{ $item.Params.shorttitle }}{{ else }}{{ $item.Title }}{{ end }}</span>
     <span>{{ if .Params.publication_status }} - {{ .Params.publication_status }}{{ end }}</span></a>
 
   {{ if eq $item.Type "talk" }}
