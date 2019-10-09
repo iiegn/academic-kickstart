@@ -1,7 +1,7 @@
 ---
 title: "Technical Solutions for Reproducible Research"
 date: 2019-09-01
-publishDate: 2019-09-26T06:35:47.474653Z
+publishDate: 2019-09-26T06:38:56.923911Z
 event: "CLARIN Annual Conference 2019"
 authors: ["Alexander König", "Egon W. Stemle"]
 publication_types: ['1']
@@ -9,5 +9,6 @@ abstract: "In recent years, the reproducibility of scientific research has more 
 featured: false
 publication: "*Proceedings of CLARIN Annual Conference 2019*"
 publication_short: ""
+url_pdf: "https://api.zotero.org/users/332053/publications/items/D2WMT2UL/file/view"
 ---
 
