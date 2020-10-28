@@ -22,8 +22,8 @@ role: Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: Eurac Research
-  url: "http://www.eurac.edu"
+- name: "Eurac Research<br>Institute for Applied Linguistics"
+  url: "http://www.eurac.edu/linguistics"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stuff.
@@ -87,12 +87,12 @@ email: "egon.stemle@eurac.edu"
 #- Visitors
 ---
 
-I am Cognitive Scientist: I study skills like perception, thinking, learning,
+I am a Cognitive Scientist: I study skills like perception, thinking, learning,
 motor function, and language by combining the humanistic and analytical
 methods of the arts and the formal sciences.
 
 My research focus lies in the area where Computational Linguistics and
-Artificial Intelligence converge. I work on computer aided fabrication of
+Artificial Intelligence converge. I work on computer-aided fabrication of
 ontologies from large document repositories, the technological feasibility
 thereof and the utilization of cross-linked structured data in applications, as
 well as on tools for editing, processing, and annotating linguistic data.
