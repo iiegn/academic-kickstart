@@ -2,7 +2,7 @@
 title: "Towards an infrastructure for FAIR language learner corpora"
 shorttitle: "Infrastructure for FAIR corpora"
 date: 2019-09-30
-publishDate: 2019-10-09T06:44:42.874983Z
+publishDate: 2020-10-28T09:01:29.325834Z
 event: "8th Natural Language Processing for Computer-Assisted Language Learning (NLP4CALL) Workshop"
 event_url: "https://spraakbanken.gu.se/eng/research-icall/8th-nlp4call"
 eventtype: "Invited talk"
@@ -13,6 +13,6 @@ abstract: "In recent years, the reproducibility of scientific research has becom
 featured: false
 publication: ""
 publication_short: ""
-url_pdf: "https://api.zotero.org/users/332053/publications/items/TLFARE3E/file/view"
+url_slides: "https://api.zotero.org/users/332053/publications/items/TLFARE3E/file/view"
 ---
 
