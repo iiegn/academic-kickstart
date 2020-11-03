@@ -1,16 +1,48 @@
 ---
-title: "Herausforderungen bei der automatischen Verarbeitung von dialektalen IBK-Daten"
-date: 2013-09-23
-publishDate: 2019-10-08T16:01:39.755312Z
-event: "Publication Title: Workshop on \"Verabeitung und Annotation von Sprachdaten aus Genres internetbasierter Kommunikation\" at the International Conference of the German Society for Computational Linguistics and Language Technology (GSCL 2013)"
-eventtype: "Talk"
-location: "TU Darmstadt, Darmstadt, DE"
-authors: ["Egon W. Stemle"]
+title: Herausforderungen bei der automatischen Verarbeitung von dialektalen IBK-Daten
+date: '2013-09-23'
+publishDate: '2020-11-03T15:16:16.003648Z'
+event: 'Publication Title: Workshop on "Verabeitung und Annotation von Sprachdaten
+  aus Genres internetbasierter Kommunikation" at the International Conference of the
+  German Society for Computational Linguistics and Language Technology (GSCL 2013)'
+eventtype: Talk
+location: TU Darmstadt, Darmstadt, DE
+authors:
+- Egon W. Stemle
 all_day: true
-abstract: "Die automatische Verarbeitung von IBK-Daten stellt herkömmliche Verfahren im Bereich der Sprachtechnologie vor große Herausforderungen. Häufige Abweichungen von der Standardschreibung (z. B. Versprachlichungsprinzipien der Nähe, Schnellschreibphänomene) und genrespezifische Elemente (z. B. Emoticons, Inflektive, spezifische Elemente einzelner Kommunikationsdienste) führen mit vorhandenen Verarbeitungswerkzeugen häufig zu unbefriedigenden Ergebnissen, weshalb die Werkzeuge eine Anpassung oder Überarbeitung, letztlich vielleicht sogar eine Neuentwicklung benötigen. Die voranschreitende technologische Durchdringung unseres Alltags, der immer einfachere Zugang zu Kommunikationsmedien, das Heranwachsen von „Digital Natives“ und schließlich das gewachsene Bewusstsein für die wissenschaftliche Relevanz der dabei praktizierten Kommunikationsformen und der produzierten Daten machen die Probleme für die aktuelle korpuslinguistische Forschung umso relevanter. Eine besondere Herausforderung stellen nähesprachliche Phänomene dar. In einer varietätenreichen Sprache wie dem Deutschen können solche Phänomene unzählige Formen annehmen, wobei sozio-, regio- und dialektale Elemente eine entscheidende Rolle spielen. In Regionen des deutschen Sprachraums, in denen eine Situation der Diglossie zwischen Dialekt und Standardsprache vorherrscht, wie das etwa in der Schweiz oder in Südtirol der Fall ist, wird der Dialekt als die sprachliche Varietät der Nähe in der IBK häufig vollständig verschriftlicht, d.h. ganze Kommunikationen laufen im Dialekt ab. Inwiefern für solche Texte Verarbeitungswerkzeuge verwendet werden können, die an einer schriftlichen Standardvarietät ausgerichtet sind, und welche praktikable Herangehensweise am vielversprechendsten zu einer hinreichend großen und ausgewogenen Abdeckung der Sprachdaten führt, ist unklar. In der Startphase eines Projektes, in dem aus IBK-Sprachdaten von Südtiroler NutzerInnen ein Korpus erstellt wird, wurde versucht, offene Fragen dieser Art zu klären. Ein Testkorpus aus authentischen, im Südtiroler Dialekt verfassten IBK-Texten wurde dazu mit herkömmlichen Werkzeugen (Tokenisierung, Satzgrenzen- und Wortartenerkennung, Lemmatisierung) verarbeitet. Die Auswirkungen unterschiedlicher Anpassungen (z.B. Erweiterung des Lexikons, Hinzufügen von „target words“ u.a.) auf die Verarbeitungsleistung wurden dabei evaluiert. Der Vortrag wird die einzelnen Anpassungen und die jeweiligen Ergebnisse der Evaluation vorstellen."
+abstract: Die automatische Verarbeitung von IBK-Daten stellt herkömmliche Verfahren
+  im Bereich der Sprachtechnologie vor große Herausforderungen. Häufige Abweichungen
+  von der Standardschreibung (z. B. Versprachlichungsprinzipien der Nähe, Schnellschreibphänomene)
+  und genrespezifische Elemente (z. B. Emoticons, Inflektive, spezifische Elemente
+  einzelner Kommunikationsdienste) führen mit vorhandenen Verarbeitungswerkzeugen
+  häufig zu unbefriedigenden Ergebnissen, weshalb die Werkzeuge eine Anpassung oder
+  Überarbeitung, letztlich vielleicht sogar eine Neuentwicklung benötigen. Die voranschreitende
+  technologische Durchdringung unseres Alltags, der immer einfachere Zugang zu Kommunikationsmedien,
+  das Heranwachsen von „Digital Natives“ und schließlich das gewachsene Bewusstsein
+  für die wissenschaftliche Relevanz der dabei praktizierten Kommunikationsformen
+  und der produzierten Daten machen die Probleme für die aktuelle korpuslinguistische
+  Forschung umso relevanter. Eine besondere Herausforderung stellen nähesprachliche
+  Phänomene dar. In einer varietätenreichen Sprache wie dem Deutschen können solche
+  Phänomene unzählige Formen annehmen, wobei sozio-, regio- und dialektale Elemente
+  eine entscheidende Rolle spielen. In Regionen des deutschen Sprachraums, in denen
+  eine Situation der Diglossie zwischen Dialekt und Standardsprache vorherrscht, wie
+  das etwa in der Schweiz oder in Südtirol der Fall ist, wird der Dialekt als die
+  sprachliche Varietät der Nähe in der IBK häufig vollständig verschriftlicht, d.h.
+  ganze Kommunikationen laufen im Dialekt ab. Inwiefern für solche Texte Verarbeitungswerkzeuge
+  verwendet werden können, die an einer schriftlichen Standardvarietät ausgerichtet
+  sind, und welche praktikable Herangehensweise am vielversprechendsten zu einer hinreichend
+  großen und ausgewogenen Abdeckung der Sprachdaten führt, ist unklar. In der Startphase
+  eines Projektes, in dem aus IBK-Sprachdaten von Südtiroler NutzerInnen ein Korpus
+  erstellt wird, wurde versucht, offene Fragen dieser Art zu klären. Ein Testkorpus
+  aus authentischen, im Südtiroler Dialekt verfassten IBK-Texten wurde dazu mit herkömmlichen
+  Werkzeugen (Tokenisierung, Satzgrenzen- und Wortartenerkennung, Lemmatisierung)
+  verarbeitet. Die Auswirkungen unterschiedlicher Anpassungen (z.B. Erweiterung des
+  Lexikons, Hinzufügen von „target words“ u.a.) auf die Verarbeitungsleistung wurden
+  dabei evaluiert. Der Vortrag wird die einzelnen Anpassungen und die jeweiligen Ergebnisse
+  der Evaluation vorstellen.
 featured: false
-publication: ""
-publication_short: ""
-url_slides: "https://api.zotero.org/users/332053/publications/items/7HSFPXJI/file/view"
+publication: ''
+publication_short: ''
+url_slides: https://api.zotero.org/users/332053/publications/items/7HSFPXJI/file/view
 ---
 
