@@ -1,10 +1,6 @@
 ---
 # Display name
-name: Egon W. Stemle
-
-# Username (this should match the folder name)
-authors:
-- admin
+title: Egon W. Stemle
 
 # FIXME: automatically generated names from authors (egon-stemle,
 # egon-w.-stemle) do *not* work
@@ -17,10 +13,10 @@ aliases:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
+# Role/position/tagline
 role: Researcher
 
-# Organizations/Affiliations
+# Organizations/Affiliations to show in About widget
 organizations:
 - name: "Eurac Research<br>Institute for Applied Linguistics"
   url: "http://www.eurac.edu/linguistics"
@@ -32,6 +28,16 @@ interests:
 - Cognitive Science
 - Artificial Intelligence
 - Computational Linguistics
+
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
+# and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: media/resume.pdf
+
+# Email for Contact widget or Gravatar
+email: "egon.stemle@eurac.edu"
 
 education:
   courses:
@@ -77,9 +83,6 @@ social:
   icon_pack: ai
   link: https://github.com/iiegn/pub/raw/master/CV/CV_en.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "egon.stemle@eurac.edu"
-  
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 #user_groups:

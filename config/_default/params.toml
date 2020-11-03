@@ -1,5 +1,10 @@
 # SITE SETUP
-# Documentation: https://sourcethemes.com/academic/
+# Guide: https://sourcethemes.com/academic/docs/get-started/
+# Documentation: https://sourcethemes.com/academic/docs/
+#
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[search]`).
+
 
 ############################
 ## Theme
@@ -46,22 +51,18 @@ org_name = ""
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
 
-# Display a logo in navigation bar rather than title (optional).
-#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = ""
-
 ############################
 ## Site Features
 ############################
 
-# Enable global source code highlighting? true/false
+# Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 # highlight_languages = ["r"]  # Add support for highlighting additional languages
 highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
-# Enable global LaTeX math rendering?
-#   If false, you can enable it locally on a per page basis.
+# Enable LaTeX math rendering? true/false
+#   If false, you can enable math on a per page basis as needed.
 math = false
 
 # Enable diagram rendering? true/false
@@ -75,11 +76,16 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-#edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+#edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
+# Show related content at the bottom of pages?
+show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
-## Contact Widget setup   ##
+## Contact details
+##
+## These details power the Contact widget (if enabled).
+## Additionally, for organizations, these details may be used to enrich search engine results.
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
@@ -90,12 +96,6 @@ phone = "+39 0471 055 129"
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
 address = {street = "Viale Druso 1", city = "Bolzano", region = "BZ", postcode = "39100", country = "Italy", country_code = "IT"}
 
-#address = """Eurac Research </br>
-#Institute for Applied Linguistics </br>
-#Viale Druso, 1 </br>
-#39100 Bolzano </br>
-#Italy"""
-
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {latitude = "46.49431", longitude = "11.34633"}
@@ -103,10 +103,13 @@ coordinates = {latitude = "46.49431", longitude = "11.34633"}
 # Directions for visitors to locate you.
 #directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
 
-# Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = ""
+# Office hours
+# A list of your office hours. To remove, set to an empty list `[]`.
+# office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
+# appointment_url = "https://calendly.com"
 appointment_url = ""
 
 # Contact links
@@ -124,7 +127,7 @@ contact_links = [
 ## Social
 ############################
 
-# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+# Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
@@ -136,24 +139,19 @@ twitter = "iiegn"
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "2006-01"
+date_format = "2006-01-02"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "15:04"
 
-# List delimiter (separates parts of an address)
-# Popular separators are ", " (comma), "<br>" (new line), " " (space)
-list_delimiter = ", "
-
+# Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "it"
 
 ############################
 ## Advanced
 ############################
 
-# Get user avatars from Gravatar.com? (true/false)
-gravatar = true
-
-# Align the main menu to the right of the page? (true/false)
-menu_align_right = false
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -165,11 +163,29 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
 
-# Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+copyright_license = {enable = true, allow_derivatives = true, share_alike = false, allow_commercial = true, notice = "This work is licensed under {license}"}
+
+# Link authors to their profile page? (true/false)
+link_authors = false
+
+# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
+abstract_length = 135
+
+# Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ["custom"]
 plugins_js  = []
+
+# Avatars.
+# An avatar is an image that appears next to a user's name.
+# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = true
+
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "circle"
 
 # Configuration of publication pages.
 [publications]
@@ -191,7 +207,6 @@ plugins_js  = []
   publication_view = 2
   talk_view = 2
 
-
 ############################
 ## Comments
 ############################
@@ -210,6 +225,10 @@ plugins_js  = []
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
+  # Configuration of Commento.
+  [comments.commento]
+    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url = ""
 
 ############################
 ## Search
@@ -228,7 +247,6 @@ plugins_js  = []
     api_key = ""
     index_name = ""
     show_logo = false
-
 
 ############################
 ## Maps
@@ -251,3 +269,24 @@ plugins_js  = []
   engine = 2
   api_key = ""
   zoom = 8
+
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = ""
+  google_tag_manager = ""
+
+
+############################
+## Content Management System
+############################
+[cms]
+  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
+  netlify_cms = true
+
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+  ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
