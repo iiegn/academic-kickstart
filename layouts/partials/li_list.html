@@ -1,6 +1,5 @@
 {{ $item := . }}
 
-{{ $microdata_type := "CreativeWork" }}
 {{/* Dynamic view adjusts to content type. */}}
 {{ $icon_pack := "far" }}
 {{ $icon := "fa-file-alt" }}
@@ -13,13 +12,10 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 {{ if eq $item.Type "post" }}
-  {{ $microdata_type = "BlogPosting" }}
   {{ $icon = "fa-newspaper" }}
 {{ else if eq $item.Type "talk" }}
-  {{ $microdata_type = "Event" }}
-  {{ $icon = "fa-comment" }}
+  {{ $icon = "fa-calendar-alt" }}
 {{ else if eq $item.Type "publication" }}
-  {{ $microdata_type = "ScholarlyArticle" }}
   {{ $show_authors = true }}
   {{ $show_buttons = true }}
 {{ else if eq $item.Type "project" }}
@@ -29,38 +25,24 @@
   {{ $show_buttons = true }}
 {{ end }}
 
-<div class="view-list-item" itemscope itemtype="http://schema.org/{{$microdata_type}}">
+<div class="view-list-item">
   <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
-  <a href="{{$link}}" itemprop="url"><span itemprop="name">{{ if $item.Params.shorttitle }}{{ $item.Params.shorttitle }}{{ else }}{{ $item.Title }}{{ end }}</span>
-    <span>{{ if .Params.publication_status }} - {{ .Params.publication_status }}{{ end }}</span></a>
+  <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
 
   {{ if eq $item.Type "talk" }}
   <div class="article-metadata">
-    <span itemprop="startDate">
-      {{ $date := $item.Date }}
-      {{ (time $date).Format site.Params.date_format }}
-      {{ if not $item.Params.all_day }}
-        {{ (time $date).Format (site.Params.time_format | default "3:04 PM") }}
-        {{ with $item.Params.date_end }}
-        &mdash; {{ (time .).Format (site.Params.time_format | default "3:04 PM") }}
-        {{ end }}
-      {{ end }}
+    <span>
+      {{ partial "functions/get_event_dates" $item }}
     </span>
-    {{ if $item.Params.event }}
-    <span class="middot-divider"></span>
-    {{ with $item.Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-    <span itemprop="description">{{ $item.Params.event }}</span>
-    {{ if $item.Params.event_url }}</a>{{ end }}
-    {{ end }}
     {{ with $item.Params.location }}
     <span class="middot-divider"></span>
-    <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>
+    <span>{{ . }}</span>
     {{ end }}
   </div>
   {{ end }}
 
   {{ if and $show_authors $item.Params.authors }}
-  <div class="article-metadata" itemprop="author">
+  <div class="article-metadata">
     {{ partial "page_metadata_authors" $item }}
   </div>
   {{ end }}

@@ -19,15 +19,19 @@
 
 {{/* Filters */}}
 {{ if $st.Params.content.filters.tag }}
-  {{ $archive_page = site.GetPage (printf "tags/%s" $st.Params.content.filters.tag) }}
+  {{ $archive_page = site.GetPage (printf "tags/%s" (urlize $st.Params.content.filters.tag)) }}
   {{ $query = $query | intersect $archive_page.Pages }}
 {{ end }}
 {{ if $st.Params.content.filters.category }}
-  {{ $archive_page = site.GetPage (printf "categories/%s" $st.Params.content.filters.category) }}
+  {{ $archive_page = site.GetPage (printf "categories/%s" (urlize $st.Params.content.filters.category)) }}
   {{ $query = $query | intersect $archive_page.Pages }}
 {{ end }}
 {{ if $st.Params.content.filters.publication_type }}
   {{ $archive_page = site.GetPage (printf "publication_types/%s" $st.Params.content.filters.publication_type) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.author }}
+  {{ $archive_page = site.GetPage (printf "authors/%s" (urlize $st.Params.content.filters.author)) }}
   {{ $query = $query | intersect $archive_page.Pages }}
 {{ end }}
 {{ if $st.Params.content.filters.exclude_featured }}
@@ -44,7 +48,7 @@
 
 {{/* Sort */}}
 {{ $sort_by := "Date" }}
-{{ $query = sort (sort $query $sort_by $items_sort) "Weight" $items_sort }}
+{{ $query = sort $query $sort_by $items_sort }}
 
 {{/* Offset and Limit */}}
 {{ if gt $items_offset 0 }}
@@ -65,14 +69,25 @@
   {{ $i18n = "more_pages" }}
 {{ end }}
 
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
-    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
-  </div>
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<div class="row {{if not $st.Title | or (eq $columns "1") }}justify-content-center{{end}}">
+  {{ if $st.Title }}
+    {{ if eq $columns "1" }}
+      <div class="col-12 col-lg-8 section-heading text-center">
+        {{ with $st.Title }}<h1>{{.}}</h1>{{ end }}
+        {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      </div>
+    {{else}}
+      <div class="col-12 col-lg-4 section-heading">
+        {{ with $st.Title }}<h1>{{.}}</h1>{{ end }}
+        {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      </div>
+    {{end}}
+  {{ end }}
   <div class="col-12 col-lg-8">
 
-    {{ with $st.Content }}<p>{{ . }}</p>{{ end }}
+    {{ with $st.Content }}{{ . }}{{ end }}
 
     {{ range $post := $query }}
       {{ if eq $st.Params.design.view 1 }}
@@ -86,13 +101,25 @@
       {{ end }}
     {{end}}
 
-    {{ if gt $count $items_count }}
-    <div class="see-all">
-      <a href="{{ $archive_page.RelPermalink }}">
-        {{ i18n $i18n | default "See all" }}
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
+    {{/* Archive link */}}
+    {{ $show_archive_link := $st.Params.content.archive.enable | default (gt $count $items_count) }}
+    {{ if $show_archive_link }}
+
+      {{ $archive_link := "" }}
+      {{ if $st.Params.content.archive.link }}
+        {{ $archive_link = $st.Params.content.archive.link | relLangURL }}
+      {{ else }}
+        {{ $archive_link = $archive_page.RelPermalink }}
+      {{ end }}
+
+      {{ $archive_text := $st.Params.content.archive.text | default (i18n $i18n) | default "See all" }}
+
+      <div class="see-all">
+        <a href="{{ $archive_link }}">
+          {{ $archive_text | emojify }}
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
     {{ end }}
 
   </div>
