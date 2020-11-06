@@ -22,7 +22,7 @@ organizations:
   url: "http://www.eurac.edu/linguistics"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include stuff.
+bio: My interests include some things and beyond.
 
 interests:
 - Cognitive Science
