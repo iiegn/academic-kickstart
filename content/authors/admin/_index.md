@@ -65,6 +65,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.it/citations?user=uHqa8ooAAAAJ
+- icon: semantic-scholar
+  icon_pack: ai
+  link: https://www.semanticscholar.org/author/2991702
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/iiegn
