@@ -29,15 +29,15 @@
 
   <p class="powered-by footer-license-icons">
     <a href="{{$license_url}}" rel="noopener noreferrer" target="_blank">
-      <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC icon">
-      <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="CC by icon">
+      <i class="fab fa-creative-commons"></i>
+      <i class="fab fa-creative-commons-by"></i>
       {{ if not $allow_commercial }}
-        <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="CC NC icon">
+        <i class="fab fa-creative-commons-nc"></i>
       {{end}}
       {{ if and $allow_derivatives $share_alike }}
-        <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="CC SA icon">
+        <i class="fab fa-creative-commons-sa"></i>
       {{ else if not $allow_derivatives }}
-        <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="CC ND icon">
+        <i class="fab fa-creative-commons-nd"></i>
       {{end}}
     </a>
   </p>
