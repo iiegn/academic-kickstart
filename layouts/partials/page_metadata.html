@@ -15,6 +15,9 @@
 
   {{ if not (in (slice "talk" "page") $page.Type) }}
   <span class="article-date">
+    {{ if $page.Params.publication_status }}
+      {{ $page.Params.publication_status }}
+    {{ else }}
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
       {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}
@@ -24,6 +27,7 @@
       {{ end }}
     {{ end }}
     {{ $date }}
+    {{ end }}
   </span>
   {{ end }}
 

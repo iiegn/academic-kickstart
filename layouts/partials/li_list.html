@@ -28,6 +28,9 @@
 <div class="view-list-item">
   <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
   <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    {{ if $item.Params.publication_status }}
+      <span>({{ $item.Params.publication_status }})</span>
+    {{ end }}
 
   {{ if eq $item.Type "talk" }}
   <div class="article-metadata">
