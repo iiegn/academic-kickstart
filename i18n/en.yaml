@@ -1,2 +1,9 @@
+# Publication/Talk details
+- id: pub_proceedings
+  translation: Proceedings
+- id: pub_newsarticle
+  translation: Newspaper article
+
+# Others
 - id: btn_publisher
   translation: Publisher
